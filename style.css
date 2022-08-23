@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* My Code */
+
+.bg-nav{
+    /* background: #000428;  fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  
+    background: linear-gradient(to right, #004e92, #000428); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+  */
+
+}
+.bgz{
+    background: #000000;  /* fallback for old browsers */
+   
+}
+
+
+.mt-100
+{
+    margin-top: 100px;
+}
+  
+iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container1
+{
+    background: white;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  
+}
+.logo
+{
+    color:#000000;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    cursor: pointer;
+}
